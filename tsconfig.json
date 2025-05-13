@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "paths": {
+      "data": [
+        "./data.ts"
+      ]
+    }
+  }
+}
