@@ -1,4 +1,4 @@
-import { envConfig } from '../config/envConfig'
+import { envConfig } from './config/envConfig'
 import Logger from './helpers/logger'
 import GoogleApiService from './lib/GoogleApiService'
 import TelegramBotService from './lib/TelegramBotService'

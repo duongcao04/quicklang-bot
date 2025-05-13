@@ -44,7 +44,7 @@ export type DriveFileOptions = {
 
 export default class GoogleApiService {
     private auth: GoogleAuth
-    private client: JWT
+    private client!: JWT
     private services: Map<GoogleApiServices, any> = new Map()
 
     /**
